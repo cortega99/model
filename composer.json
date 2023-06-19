@@ -1,5 +1,5 @@
 {
-    "name": "orchestra/model",
+    "name": "cortega99/model",
     "description": "Model Component for Orchestra Platform",
     "homepage": "http://orchestraplatform.com/docs/latest/components/model",
     "keywords": ["orchestra-platform", "orchestral", "model", "laravel"],
@@ -25,7 +25,7 @@
         "php": "^7.3 || ^8.0",
         "laravie/dhosa": "^1.1",
         "orchestra/contracts": "^6.0",
-        "orchestra/database": "^6.0",
+        "orchestra/database": "dev-laravel10",
         "orchestra/support": "^6.0"
     },
     "require-dev": {
@@ -41,5 +41,11 @@
     "config": {
         "sort-packages": true
     },
-    "minimum-stability": "dev"
+    "minimum-stability": "dev",
+    "repositories": [
+        {
+            "type": "vcs",
+            "url": "https://github.com/cortega99/database"
+        }
+    ]
 }
