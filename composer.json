@@ -41,11 +41,5 @@
     "config": {
         "sort-packages": true
     },
-    "minimum-stability": "dev",
-    "repositories": [
-        {
-            "type": "vcs",
-            "url": "https://github.com/cortega99/database"
-        }
-    ]
+    "minimum-stability": "dev"
 }
