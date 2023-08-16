@@ -22,7 +22,7 @@
         }
     },
     "require": {
-        "php": "^8.1",
+        "php": "^8.1.18",
         "laravie/dhosa": "dev-laravel10",
         "orchestra/contracts": "dev-laravel10",
         "orchestra/database": "dev-laravel10",
